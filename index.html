@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        :root{
+            --primary-color:#fafafa;
+            --navbar-color:#fafafa;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h2 style="margin-left: 10px; background-color: var(--primary-color); padding-left: 20px;">Hassan</h2>
+        <div class="elements">
+            <ul>
+            <li><a href="#target1">Home</a></li>
+            <li><a href="#target2">Skills</a></li>
+            <li><a href="#target3">Channel</a></li>
+            <li><a href="#target4">Scioal media</a></li>
+            <li><a href="#target5">Contact with me</a></li>
+            </ul>
+        </div>
+        <img id="img" onclick="dark()" style="margin-right: 10px; background-color:   var(--primary-color-color) ; padding-right: 20px;"  src="photos/moon.png" alt="dark mode">
+    </div>
+    
+    <div id="target1" class="home">
+        <div class="about_me">
+            <h5 style="background-color: var(--primary-color);">HELLO,MY NAME IS</h5>
+            <h2 style="background-color: var(--primary-color);">HASSAN MOHAMED</h2>
+            <p style="background-color: var(--primary-color);">web developer | Games Programer </p>
+        </div>
+        <img style="width: 200px;" src="photos/user.png" alt="my photo">
+    </div>
+    <div  id="target2" class="skills">
+        <h1 style="position: relative;top: -37px; background-color: var(--primary-color);">Skills</h1>
+        <div class="skill">
+            <div class="html">
+                <img style="background-color: var(--primary-color);" src="photos/html.png" alt="HTML PHOTO">
+                <h3 style="background-color: var(--primary-color);">HTML</h3>
+            </div>
+            <div class="html">
+                <img style="background-color: var(--primary-color);" src="photos/css.png" alt="CSS PHOTO">
+                <h3 style="background-color: var(--primary-color);">CSS</h3>
+            </div>
+            <div class="html">
+                <img style="background-color: var(--primary-color);" src="photos/java-script.png" alt="JAVA SCRIPT PHOTO">
+                <h3 style="background-color: var(--primary-color);">JAVA SCRIPT</h3>
+            </div>
+            <div class="html">
+                <img style="background-color: var(--primary-color);" src="photos/react.png" alt="REACT PHOTO">
+                <h3 style="background-color: var(--primary-color);">REACT</h3>
+            </div>
+        </div>
+    </div>
+    <div id="target3" class="channel">
+        <h2 style="margin-top: 10px; background-color: var(--primary-color);">Channels</h2>
+        <div class="channel_content">
+            <div class="channels">
+            <h2 style="background-color: var(--primary-color);">Channel 1</h2>
+            <img src="photos/network.png" alt="">
+            <button class="btn">Visit</button>
+        </div>
+        <div class="channels">
+            <h2 style="background-color: var(--primary-color);">Channel 2</h2>
+            <img src="photos/network.png" alt="">
+            <button class="btn">Visit</button>
+        </div> 
+        </div>
+
+    </div>
+    <div id="target4" class="scioal_media">
+        <h2 style="margin-top: 10px; background-color: var(--primary-color);">SOCILA MEDIA</h2>
+        <div class="media_content">
+                <div class="media">
+                    <h2 style="background-color: var(--primary-color);">TIK TOK</h2>
+                    <img src="photos/tik-tok.png" alt="TIK TOK">
+                    <button onclick="tik_tok()" class="btn">Visit</button>
+                </div>
+                <div class="media">
+                    <h2 style="background-color: var(--primary-color);">INSTEGRAM</h2>
+                    <img src="photos/instagram.png" alt="INSTEGRAM">
+                    <button onclick="instegram()" class="btn">Visit</button>
+                </div> 
+            <div class="media">
+                <h2 style="background-color: var(--primary-color);">FACE BOOK</h2>
+                <img src="photos/communication.png" alt="FACE BOOK">
+                <button onclick="face_book()" class="btn">visit</button>
+            </div>
+            <div class="media">
+                <h2 style="background-color: var(--primary-color);">X</h2>
+                <img src="photos/twitter.png" alt="X">
+                <button onclick="x()" class="btn">visit</button>
+            </div>
+        </div>
+    </div>
+    <div id="target5" class="contact_with_me">
+        <h2 style="margin-top: 10px; background-color: var(--primary-color);">CONTACT WITH ME</h2>
+        <div class="content_contact">
+            <div class="email">
+                <img style="background-color: var(--primary-color);" src="photos/mail.png" alt="">
+                <p style="background-color: var(--primary-color);">Email : has0san.tk.m0hamed@gmail.com</p>
+            </div>
+            <div class="phone">
+                <img style="background-color: var(--primary-color);" src="photos/phone-call.png" alt="">
+                <p style="background-color: var(--primary-color);">phone : 01287576628</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
