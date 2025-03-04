@@ -301,6 +301,7 @@ li{
     width: 100px;
     border-radius: 50%;
     border: 1px solid var(--border-color);
+
 }
 .contact_with_me{
     display: flex;
@@ -343,4 +344,5 @@ li{
 }
 .email img, .phone img{
     width: 30px;
+    gap: 0px;
 }

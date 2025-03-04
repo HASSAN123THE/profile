@@ -1,7 +1,7 @@
 
 
 window.onload = function() {
-    alert("الصفحه غير جاهزه للاستعمال علي الهواتف فقط علي الكومبيوتر او الابتب 😊");
+    alert(" الان الصفحه جاهزه الاستعمال علي اي جهاز 😊");
     main(); 
 };
 
@@ -40,4 +40,9 @@ function face_book() {
 function x() {
     window.open('https://www.x.com/');
 }
-
+function youtube1() {
+    window.open('https://www.youtube.com/');
+}
+function youtube2() {
+    window.open('https://www.youtube.com/');
+}
